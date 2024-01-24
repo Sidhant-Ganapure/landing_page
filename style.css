@@ -1,0 +1,481 @@
+  @import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  header {
+      position: sticky;
+      top: 0;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 25px;
+      background-color: black;
+      color: white;
+  }
+
+  .left {
+      font-family: 'Plaster', system-ui;
+      font-weight: 900;
+      font-size: 35px;
+      letter-spacing: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+  }
+
+  .elements ul {
+      display: flex;
+      gap: 30PX;
+  }
+
+  a {
+      text-decoration: none;
+      color: white;
+  }
+
+  a:hover {
+      color: greenyellow;
+  }
+
+  .elements ul li {
+      list-style: none;
+  }
+
+  .searchbar {
+      border: 2px solid white;
+      border-radius: 4px;
+  }
+
+  .searchbar input {
+      padding: 5px 10px;
+      background: transparent;
+      color: white;
+      border: none;
+      width: 10VW;
+      font-size: 16px;
+  }
+
+  button {
+      padding: 5px 10px;
+      background: transparent;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+
+  .profile-cart {
+      display: flex;
+      gap: 20px;
+  }
+
+  .right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  #section0 {
+      margin-top: 7px;
+
+  }
+
+  #section0 h2 {
+      text-align: center;
+      padding: 5px 0px;
+      background-color: #f200ff;
+      margin-top: 7px;
+  }
+
+  #section0 .categories {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin: 10px;
+  }
+
+  #section0 .categories .categoriesname1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+      height: 150px;
+      border-radius: 20px;
+      background: url(Images/pexels-terrance-barksdale-6692038.jpg);
+      color: #000;
+      font-size: 24px;
+      font-weight: bold;
+      background-size: cover;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+  }
+
+  #section0 .categories .categoriesname1:hover {
+      transform: scale(1.05);
+  }
+
+  #section0 .categories .categoriesname4 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+      height: 150px;
+      border-radius: 20px;
+      background: url(Images/pexels-terrance-barksdale-6692038.jpg);
+      color: #000;
+      font-size: 24px;
+      font-weight: bold;
+      background-size: cover;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+  }
+
+  #section0 .categories .categoriesname4:hover {
+      transform: scale(1.05);
+  }
+
+  #section0 .categories .categoriesname2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+      height: 150px;
+      border-radius: 20px;
+      background: url(Images/pexels-terrance-barksdale-6692038.jpg);
+      color: #000;
+      font-size: 24px;
+      font-weight: bold;
+      background-size: cover;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+  }
+
+  #section0 .categories .categoriesname2:hover {
+      transform: scale(1.05);
+  }
+
+  #section0 .categories .categoriesname3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+      height: 150px;
+      border-radius: 20px;
+      background: url(Images/pexels-terrance-barksdale-6692038.jpg);
+      color: #000;
+      font-size: 24px;
+      font-weight: bold;
+      background-size: cover;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+  }
+
+  #section0 .categories .categoriesname3:hover {
+      transform: scale(1.05);
+  }
+
+
+  #section0 .categories .categoriesname5 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+      height: 150px;
+      border-radius: 20px;
+      background: url(Images/pexels-terrance-barksdale-6692038.jpg);
+      color: #000;
+      font-size: 24px;
+      font-weight: bold;
+      background-size: cover;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+  }
+
+  #section0 .categories .categoriesname5:hover {
+      transform: scale(1.05);
+  }
+
+  #section1 {
+      margin-top: 10px;
+  }
+
+  #section2 {
+      margin-top: 10px;
+  }
+
+  #section2 h2 {
+      text-align: center;
+      margin: 20px 0px;
+      padding: 5px 0px;
+      background-color: #f200ff;
+  }
+
+  .name {
+      font-weight: bold;
+  }
+
+  .price {
+      color: red;
+      font-weight: bold;
+      margin-top: 4px;
+      margin-bottom: 2px;
+  }
+
+  #section2 .container {
+      width: 200px;
+      background-color: #fff;
+      margin: 0px 20px;
+      margin-bottom: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 15px;
+      text-align: center;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+  }
+
+  .container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+  }
+
+  .container img:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+  }
+
+  #section2 .puma {
+      display: flex;
+  }
+
+  #section2 .puma .container button {
+      color: #000;
+      border: none;
+      margin-top: 10px;
+      background-color: #4CAF50;
+      border-radius: 4px;
+      padding: 7px 15px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+  }
+
+  #section2 .nike {
+      display: flex;
+  }
+
+  #section2 .nike .container button {
+      color: #000;
+      border: none;
+      margin-top: 10px;
+      background-color: #4CAF50;
+      border-radius: 4px;
+      padding: 7px 15px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+  }
+
+  #section2 .sparx {
+      display: flex;
+  }
+
+  #section2 .sparx .container button {
+      color: #000;
+      border: none;
+      margin-top: 10px;
+      background-color: #4CAF50;
+      border-radius: 4px;
+      padding: 7px 15px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+  }
+
+  #section4 {
+      margin-top: 10px;
+      height: 200px;
+      background-color: #13294b;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+
+
+  #section4 input {
+      border: 2px solid white;
+      width: 30vw;
+      background: transparent;
+      padding: 8px;
+      font-size: 16px;
+  }
+
+  #section4 button {
+      border: 2px solid white;
+      padding: 7px 20px;
+      letter-spacing: 1px;
+      background-color: #d6249f;
+  }
+
+  .info {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      background-color: #131A22;
+      align-items: center;
+      color: white;
+  }
+
+  .info1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      margin-top: 15px;
+  }
+
+  .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s ease-in-out;
+  }
+
+  .social-icons a .fa-twitter:hover {
+      background-color: #1da1f2;
+      color: #fff;
+      border: 0px;
+      font-size: 17px;
+  }
+
+  .social-icons a .fa-linkedin-in:hover {
+      background-color: #007bb5;
+      color: #fff;
+      border: 0px;
+      font-size: 17px;
+  }
+
+  .social-icons a .fa-instagram:hover {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      color: #fff;
+      border: 0px;
+      font-size: 17px;
+  }
+
+  .social-icons a .fa-github:hover {
+      background-color: #3B5998;
+      color: #fff;
+      border: 0px;
+      font-size: 17px;
+  }
+
+  .social-icons i {
+      font-size: 15px;
+      border: 2px solid white;
+      border-radius: 50%;
+      background-color: transparent;
+      padding: 10px;
+  }
+
+  .info2 {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+      text-decoration: none;
+      flex-wrap: wrap;
+  }
+
+  .info0 {
+      font-family: 'Plaster', system-ui;
+      font-weight: 900;
+      font-size: 35px;
+      letter-spacing: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 10px;
+  }
+
+
+
+  .info2 .heading {
+      font-weight: 900;
+      font-size: 18px;
+      cursor: pointer;
+  }
+
+  .info2 .heading:hover {
+      color: greenyellow;
+  }
+
+  .info2 .div:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+  }
+
+  .info2 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .info2 .div {
+      margin: 10px 0px;
+      color: #666;
+  }
+
+  footer {
+      background-color: #232F3E;
+      text-align: center;
+      color: white;
+      padding: 15px;
+  }
